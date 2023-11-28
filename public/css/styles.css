@@ -195,6 +195,15 @@ main {
     color: var(--info-button-active);
 }
 
+.X{
+    mix-blend-mode: multiply; 
+    display: none; 
+}
+
+.tarefa:hover .X {
+    display: block;
+}
+
 @media(min-width:1000px){
     header{
         background-image: var(--bg-header-desktop);
