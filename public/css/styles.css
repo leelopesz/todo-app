@@ -261,7 +261,7 @@ main {
     }
 
     .tarefa:hover button {
-        visibility: initial;
+        visibility: initial; 
     }
 }
 
